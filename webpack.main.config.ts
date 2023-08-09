@@ -15,4 +15,8 @@ export const mainConfig: Configuration = {
   resolve: {
     extensions: ['.js', '.ts', '.jsx', '.tsx', '.css', '.json'],
   },
+  node: {
+    __dirname: false, // this is important so that __dirname
+    // gets into bundle as vanilla and only resolved at runtime
+  },
 };
