@@ -30,7 +30,9 @@
 
 先安装 [worker-loader](https://github.com/webpack-contrib/worker-loader)。
 
-然后基于 [worker-loader#integrating-with-typescript](https://github.com/webpack-contrib/worker-loader#integrating-with-typescript) 进行调整。
+然后按照 [worker-loader#integrating-with-typescript](https://github.com/webpack-contrib/worker-loader#integrating-with-typescript) 的步骤走一遍。
+
+最后，进行如下调整：
 
 **`@types/worker-loader.d.ts`**
 
