@@ -28,7 +28,9 @@ Follow the steps below for the project you created by webpack-typescript templat
 
 First of all, install [worker-loader](https://github.com/webpack-contrib/worker-loader).
 
-Then, based on [worker-loader#integrating-with-typescript](https://github.com/webpack-contrib/worker-loader#integrating-with-typescript), make adjustments.
+Then, do things what [worker-loader#integrating-with-typescript](https://github.com/webpack-contrib/worker-loader#integrating-with-typescript) says.
+
+At last, make adjustments following:
 
 **`@types/worker-loader.d.ts`**
 
